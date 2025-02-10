@@ -136,7 +136,7 @@ def process_user_input():
 def main():
     st.set_page_config("HackerGPT", layout="wide")
     st.header("Bienvenue sur HackerGPT créé par Kortex!")
-    st.title("💬 Pose moi une question à HackerGPT")
+    st.title("💬 Pose une question à HackerGPT")
     st.markdown("---")
 
     if not os.path.exists("faiss_index"):
